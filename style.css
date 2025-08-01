@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.container .text{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.container .coin{
+    width: 100%;
+    height: 70%;
+}
+.container .coin img{
+    width: 100%;
+}
+.container .coin img:active{
+    transform: skew(3deg);
+}
